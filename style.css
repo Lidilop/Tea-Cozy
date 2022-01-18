@@ -1,0 +1,179 @@
+
+html {
+    font-size: 22px;
+    font-family: Helvetica;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center-horizontally;
+    box-sizing: border-box;
+}
+body {
+    background-color:black;
+    opacity: 0.9;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+/** fixed header **/
+header {
+    color:seashell;
+    height: 69px;
+    margin: auto;
+}
+
+#menu img {
+    float: left;
+    margin: auto 10px;
+    
+}
+nav {
+    float: right;
+    text-decoration: underline; 
+    font-family: Helvetica;
+    font-size: 22px; 
+    
+}
+nav a {
+    list-style: none;
+    display: inline;
+    margin: auto;
+    margin-right: 10px;
+    color: seashell;
+    
+} 
+
+.banner {
+    background-image: url("./img-mission-background.webp");
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    opacity: 0.9;
+    margin: 60px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    float: none;
+    
+    
+}
+
+.container {
+    background-color: black;
+    width: 1200px;
+    height: centered-vertically;
+    margin: auto;
+    margin-top: 25%;
+    justify-content: center;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+.banner2 {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+.banner3 {
+    width: 1000px;
+    justify-content: center ;
+    margin: auto;
+    
+}
+.banner3 p {
+    font-size: 22px;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.columna {
+    
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.columna1 {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.columna2 {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.columna3 {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.columna4 {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.location {
+    background-image: url("./img-locations-background.jpg");
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    opacity: 0.9;
+    margin: 60px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    float: none;
+    
+}
+.location h2 {
+    margin-bottom: 15px;
+}
+.col {
+    display: flex;
+    opacity: 1;
+    font-size: 22px;
+    color: seashell;
+    font-family: Helvetica;
+
+}
+.colum1 {
+    background-color: black;
+    width: 300px;
+    margin:auto;
+    margin-right: 40px;
+}
+.colum2 {
+        background-color: black;
+        width: 300px;
+        margin:auto;
+}
+.colum3 {
+        background-color: black;
+        width: 300px;
+        margin:auto;
+}
+footer h2, h5, p {
+    text-align: center;
+    margin: auto;
+}
+footer h6 {
+    text-align: left;
+    margin-left: 20px;
+}
